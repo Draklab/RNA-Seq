@@ -10,6 +10,8 @@ This repository contains a complete workflow for processing RNA-seq data (SRA to
 7. Generate Feature Counts
 8. Extract Read Counts
 9. Cleanup Intermediate Files
+
+   
 B. Set Working Directory & Load Packages DESeq2
 1. Load Read Count & Metadata
 2. Construct DESeq2 Dataset
@@ -18,6 +20,8 @@ B. Set Working Directory & Load Packages DESeq2
 5. Differential Expression Analysis
 6. Filter Significant DEGs & Export
 7. Visualization
+
+
 C. PPI Network, Regulatory Gene Identification, and Functional Annotation Workflow
 Protein-Protein Interaction (PPI) & Functional Annotation Pipeline
 This repository documents the workflow for analyzing differentially expressed genes (DEGs), constructing PPI networks, identifying regulatory and resistance genes, and performing functional annotations using online bioinformatics tools.
