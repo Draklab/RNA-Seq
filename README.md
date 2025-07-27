@@ -9,7 +9,7 @@
 7. Generate Feature Counts
 8. Extract Read Counts
 9. Cleanup Intermediate Files
-    ###Set Working Directory & Load Packages DESeq2
+Set Working Directory & Load Packages DESeq2
 1. Load Read Count & Metadata
 2. Construct DESeq2 Dataset
 3. Principal Component Analysis (PCA)
@@ -17,9 +17,8 @@
 5. Differential Expression Analysis
 6. Filter Significant DEGs & Export
 7. Visualization
-   ####
-   PPI Network, Regulatory Gene Identification, and Functional Annotation Workflow
-   Protein-Protein Interaction (PPI) & Functional Annotation Pipeline
+PPI Network, Regulatory Gene Identification, and Functional Annotation Workflow
+Protein-Protein Interaction (PPI) & Functional Annotation Pipeline
 This repository documents the workflow for analyzing differentially expressed genes (DEGs), constructing PPI networks, identifying regulatory and resistance genes, and performing functional annotations using online bioinformatics tools.
 1. Protein-Protein Interaction (PPI) Network Analysis
 Tool: STRING Database
