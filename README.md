@@ -1,1 +1,32 @@
 # RNA-Seq
+
+1. Download & Convert SRA to FASTQ
+2. Quality Check
+3. Quality Trimming
+4. Post-trim Quality Check
+5. Index Reference Genome
+6. Align Reads
+7. Generate Feature Counts
+8. Extract Read Counts
+9. Cleanup Intermediate Files
+    ###Set Working Directory & Load Packages DESeq2
+1. Load Read Count & Metadata
+2. Construct DESeq2 Dataset
+3. Principal Component Analysis (PCA)
+4. Sample Distance Heatmap
+5. Differential Expression Analysis
+6. Filter Significant DEGs & Export
+7. Visualization
+   ####
+   PPI Network, Regulatory Gene Identification, and Functional Annotation Workflow
+   Protein-Protein Interaction (PPI) & Functional Annotation Pipeline
+This repository documents the workflow for analyzing differentially expressed genes (DEGs), constructing PPI networks, identifying regulatory and resistance genes, and performing functional annotations using online bioinformatics tools.
+1. Protein-Protein Interaction (PPI) Network Analysis
+Tool: STRING Database
+Visualization: Cytoscape
+Hub Gene Detection: CytoHubba Plugin
+2. Regulatory & Resistance Gene Identification
+Transcription Factor Prediction: PlantTFDB was used to predict TF families for DEGs.
+Resistance Gene Detection: PRGdb DRAGO3 was used to annotate resistance-related genes among DEGs.
+4. Functional Annotation of Significant Genes
+Tool: ShinyGO
