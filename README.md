@@ -11,8 +11,8 @@ This repository contains a complete workflow for processing RNA-seq data (SRA to
 8. Extract Read Counts
 9. Cleanup Intermediate Files
 
-   
-B. Set Working Directory & Load Packages DESeq2
+B. This repository provides an R-based workflow for analyzing RNA-Seq read count data, performing normalization, PCA, heatmaps, and identifying differentially expressed genes (DEGs) using DESeq2. 
+Set Working Directory & Load Packages DESeq2
 1. Load Read Count & Metadata
 2. Construct DESeq2 Dataset
 3. Principal Component Analysis (PCA)
